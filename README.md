@@ -1,9 +1,9 @@
-//SCRIPTING
-//- Auto-Cards - LewdLeah
-//- Story Arc Engine (SAE) - Yi1i1i
-//- Narrative Guidance Overhaul - Purplejump
-//- Paragraph-Fix - Eliterose
-// Gender Inflection + Symbol Swap - Blå Øjne
+SCRIPTING By
+- Auto-Cards - LewdLeah
+- Story Arc Engine (SAE) - Yi1i1i
+- Narrative Guidance Overhaul - Purplejump
+- Paragraph-Fix - Eliterose
+-  Gender Inflection + Symbol Swap - Blå Øjne
 
 I tweaked it a little. I’m not great at coding, and my English isn’t that good either. 
 I just tried to put everything together to make it easier to use. 
