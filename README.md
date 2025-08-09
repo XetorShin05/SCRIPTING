@@ -3,7 +3,8 @@ SCRIPTING By
 - Story Arc Engine (SAE) - Yi1i1i
 - Narrative Guidance Overhaul - Purplejump
 - Paragraph-Fix - Eliterose
--  Gender Inflection + Symbol Swap - Blå Øjne
+- Gender Inflection + Symbol Swap - Blå Øjne
+- ReputeX Engine - MillennialJesus (10/08/2025)
 
 I tweaked it a little. I’m not great at coding, and my English isn’t that good either. 
 I just tried to put everything together to make it easier to use. 
