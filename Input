@@ -1,10 +1,10 @@
-SCRIPTING
-- Auto-Cards - LewdLeah
-- Story Arc Engine (SAE) - Yi1i1i
-- Narrative Guidance Overhaul - Purplejump
-- Paragraph-Fix - Eliterose
-- Gender Inflection + Symbol Swap - Blå Øjne
-- ReputeX Engine - MillennialJesus (NEW)
+//SCRIPTING
+//- Auto-Cards - LewdLeah
+//- Story Arc Engine (SAE) - Yi1i1i
+//- Narrative Guidance Overhaul - Purplejump
+//- Paragraph-Fix - Eliterose
+//- Gender Inflection + Symbol Swap - Blå Øjne
+//- ReputeX Engine - MillennialJesus (NEW)
 
 // Your "Input" tab should look like this
 const modifier = (text) => {
