@@ -1,0 +1,44 @@
+// Your "Context" tab should look like this
+const modifier = (text) => {
+  // 🛡️ PATCH: ป้องกัน getUsedTitles พังจาก title undefined
+  if (typeof Internal === 'object') {
+    Internal.getUsedTitles = function(forceUpdate) {
+      return (Array.isArray(storyCards) ? storyCards : [])
+        .map(card => {
+          try {
+            if (card && typeof card.title === 'string') {
+              return card.title.trim();
+            }
+          } catch (e) {
+            return '';
+          }
+          return '';
+        })
+        .filter(title => title.length > 0);
+    };
+  }
+
+  // 🔁 Auto-Cards context hook
+  if (typeof AutoCards === "function") {
+    try {
+      text = ParagraphFix("context", text);
+      [text, stop] = AutoCards("context", text, stop);
+    } catch (e) {
+      text += "\\n{> Auto-Cards context error: " + e.message + " <}";
+    }
+  }
+
+  // ✨ SAE context hook (optional)
+  if (typeof onContext_SAE === "function") {
+    try {
+      text = onContext_SAE(text);
+    } catch (e) {
+      text += "\\n{> SAE context error: " + e.message + " <}";
+    }
+  }
+
+  return { text };
+};
+
+// Don't modify this part
+modifier(text);
