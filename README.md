@@ -6,6 +6,8 @@ SCRIPTING By
 - Gender Inflection + Symbol Swap - Blå Øjne
 - ReputeX Engine - MillennialJesus (10/08/2025)
 
+There are still some issues. I'm trying to fix it, but it still works. You need to change the times.
+
 =======================================
 
 old SCRIPT (no ReputeX Engine (time)) By
@@ -14,7 +16,7 @@ old SCRIPT (no ReputeX Engine (time)) By
 - Narrative Guidance Overhaul - Purplejump
 - Paragraph-Fix - Eliterose
 - Gender Inflection + Symbol Swap - Blå Øjne
-- 
+  
 =======================================
 
 I tweaked it a little. I’m not great at coding, and my English isn’t that good either. 
